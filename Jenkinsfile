@@ -6,7 +6,7 @@ pipeline {
     }
   
     agent {
-      node { label 'AGENT-NODES' }
+      node { label 'sme-nodes16' }
     }
 
     options {
