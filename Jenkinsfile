@@ -6,7 +6,7 @@ pipeline {
     }
   
     agent {
-      node { label 'nodes-10-rc' }
+      node { label 'AGENT-NODES' }
     }
 
     options {
